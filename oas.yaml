@@ -11,15 +11,7 @@ tags:
   - name: Timeline
     description: This endpoint is for Hoot timelines.
 servers:
-  - url: https://{customDomain}/api
-    variables:
-      customDomain:
-        default: hoot.at
-  - url: https://{subdomain}.glitch.me/api
-    variables:
-      subdomain:
-        default: hoot
-  - url: http://localhost:4007/api
+  - url: https://hoot.at/api
 components:
   parameters:
     id:
