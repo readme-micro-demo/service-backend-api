@@ -10,7 +10,7 @@ const filter = new Filter({
 
 /*
  * @oas [post] /hoot
- * summary: Create a hoot
+ * summary: Create a hoot!
  * description: Post a new hoot to the site
  * tags: ['Hoots']
  * requestBody:
@@ -21,7 +21,7 @@ const filter = new Filter({
  *       schema:
  *         $ref: '#/components/schemas/NewHoot'
  * responses:
- *   '201':
+ *   '200':
  *     description: successfully created hoot
  *     content:
  *       application/json:
